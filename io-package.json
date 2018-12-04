@@ -41,27 +41,20 @@
             "RenePilz <rene@pilz.cc>"
         ],
         "docs": {
-            "en": "docs/en/admin.md",
-            "ru": "docs/ru/admin.md",
-            "de": "docs/de/admin.md",
-            "es": "docs/es/admin.md",
-            "it": "docs/it/admin.md",
-            "fr": "docs/fr/admin.md",
-            "nl": "docs/nl/admin.md",
-            "pt": "docs/pt/admin.md"
+            "en": "docs/en/admin.md"
         },
         "platform": "Javascript/Node.js",
         "mode": "daemon",
         "icon": "hptoner.png",
         "materialize": true,
         "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.hptoner/master/admin/hptoner.png",
+        "extIcon": "https://raw.githubusercontent.com/fungus75/ioBroker.hptoner/master/admin/hptoner.png",
         "keywords": [
             "hptoner",
             "printer",
             "toner"
         ],
-        "readme": "https://github.com/ioBroker/ioBroker.hptoner/blob/master/README.md",
+        "readme": "https://github.com/fungus75/ioBroker.hptoner/blob/master/README.md",
         "loglevel": "info",
         "type": "general",
         "license": "MIT",
