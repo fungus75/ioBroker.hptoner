@@ -7,11 +7,11 @@ Adapter that uses the SNMP-Server of HP-Printers to fetch their Toner-Descriptio
 
 If this adapter is not available on the ioBroker-Admin-View, please use the following command to install it (from command-line on your ioBroker-Server):
 
-npm install https://github.com/fungus75/ioBroker.hptoner/tarball/master/
+```npm install https://github.com/fungus75/ioBroker.hptoner/tarball/master/```
 
 
-# Tested on:
-HP MFP M227N
+## Tested on:
+* HP MFP M227N
 
 
 
