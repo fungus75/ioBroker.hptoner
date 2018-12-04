@@ -1,0 +1,3 @@
+#!/bin/sh
+
+scp -r . iobroker:/opt/iobroker/node_modules/iobroker.hptoner/

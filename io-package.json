@@ -1,0 +1,76 @@
+{
+    "common": {
+        "name": "hptoner",
+        "version": "0.6.1",
+        "news": {
+            "0.6.1": {
+                "en": "Support of admin3",
+                "de": "Unterstützung von admin3",
+                "ru": "Поддержка admin3",
+                "pt": "Suporte de admin3",
+                "nl": "Ondersteuning van admin3",
+                "fr": "Support de admin3",
+                "it": "Supporto di admin3",
+                "es": "Soporte de admin3"
+            },
+            "0.5.0": {
+                "en": "beta version",
+                "de": "Betaversion",
+                "ru": "Бета версия",
+                "pt": "Versão beta",
+                "fr": "Version bêta",
+                "nl": "Beta versie"
+            },
+            "0.0.1": {
+                "en": "initial adapter",
+                "de": "Initiale Version",
+                "ru": "Первоначальный адаптер",
+                "pt": "Versão inicial",
+                "fr": "Version initiale",
+                "nl": "Eerste release"
+            }
+        },
+        "title": "HP Toner Status via SNMP",
+        "titleLang": {
+            "en": "HP Toner Status via SNMP"
+        },
+        "desc": {
+            "en": "ioBroker hptoner"
+        },
+        "authors": [
+            "RenePilz <rene@pilz.cc>"
+        ],
+        "docs": {
+            "en": "docs/en/admin.md",
+            "ru": "docs/ru/admin.md",
+            "de": "docs/de/admin.md",
+            "es": "docs/es/admin.md",
+            "it": "docs/it/admin.md",
+            "fr": "docs/fr/admin.md",
+            "nl": "docs/nl/admin.md",
+            "pt": "docs/pt/admin.md"
+        },
+        "platform": "Javascript/Node.js",
+        "mode": "daemon",
+        "icon": "hptoner.png",
+        "materialize": true,
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.hptoner/master/admin/hptoner.png",
+        "keywords": [
+            "hptoner",
+            "printer",
+            "toner"
+        ],
+        "readme": "https://github.com/ioBroker/ioBroker.hptoner/blob/master/README.md",
+        "loglevel": "info",
+        "type": "general",
+        "license": "MIT",
+        "messagebox": false,
+        "restartAdapters": [
+            "vis"
+        ]
+    },
+    "native": {
+    },
+    "objects": []
+}

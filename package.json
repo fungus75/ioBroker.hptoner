@@ -1,0 +1,43 @@
+{
+  "name": "iobroker.hptoner",
+  "version": "0.6.1",
+  "description": "hptoner",
+  "author": {
+    "name": "RenePilz",
+    "email": "rene@pilz.cc"
+  },
+  "contributors": [
+    {
+      "name": "RenePilz",
+      "email": "rene@pilz.cc"
+    }
+  ],
+  "homepage": "https://github.com/ioBroker/ioBroker.hptoner",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "hptoner",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ioBroker/ioBroker.hptoner"
+  },
+  "dependencies": {
+    "net-snmp":"*"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0",
+    "chai": "^4.1.2"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "bugs": {
+    "url": "https://github.com/ioBroker/ioBroker.hptoner/issues"
+  },
+  "readmeFilename": "README.md"
+}
