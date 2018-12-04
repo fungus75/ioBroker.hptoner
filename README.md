@@ -11,7 +11,7 @@ If this adapter is not available on the ioBroker-Admin-View, please use the foll
 
 
 ## Tested on:
-* HP MFP M227N
+* HP MFP M277N
 
 
 
