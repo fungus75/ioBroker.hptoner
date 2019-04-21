@@ -4,6 +4,7 @@
 
 Adapter that uses the SNMP-Server of HP-Printers to fetch their Toner-Description and Toner-Levels.
 
+***Node 6.x+ needed!***
 
 If this adapter is not available on the ioBroker-Admin-View, please use the following command to install it (from command-line on your ioBroker-Server):
 
