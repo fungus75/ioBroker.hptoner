@@ -11,16 +11,16 @@ If this adapter is not available on the ioBroker-Admin-View, please use the foll
 ```npm install https://github.com/fungus75/ioBroker.hptoner/tarball/master/```
 
 
-## Tested on the following printers:
-* HP MFP M277N
-
+### Tested on the following printers:
+- HP MFP M277N
+- [no more currently]
 
 
 ## Changelog
 
 ### 0.6.1 (2018.12.04)
-* first "version" that goes to github for testing
-
+- first "version" that goes to github for testing
+- works "productive" on my own system
 
 ## License
 The MIT License (MIT)
