@@ -2,6 +2,12 @@
 # ioBroker.hptoner
 =================
 
+Tests: [![Build Status](https://travis-ci.org/fungus75/ioBroker.hptoner.svg?branch=master)](https://travis-ci.org/fungus75/ioBroker.hptoner)
+[![Known Vulnerabilities](https://snyk.io/test/github/fungus75/ioBroker.hptoner/badge.svg)](https://snyk.io/test/github/fungus75/ioBroker.hptoner)
+
+[![License](https://img.shields.io/github/license/fungus75/ioBroker.hptoner)](https://github.com/fungus75/ioBroker.hptoner/blob/master/LICENSE)
+
+
 Adapter that uses the SNMP-Server of HP-Printers to fetch their Toner-Description and Toner-Levels.
 
 ***Node 6.x+ needed!***
