@@ -34,12 +34,33 @@
 'use strict';
 
 // you have to require the utils module and call adapter function
-const utils =    require(__dirname + '/lib/utils'); // Get common adapter utils
+//const utils =    require(__dirname + '/lib/utils'); // Get common adapter utils
+const utils = require('@iobroker/adapter-core');
 
 // you have to call the adapter function and pass a options object
 // name has to be set and has to be equal to adapters folder name and main file name excluding extension
 // adapter will be restarted automatically every time as the configuration changed, e.g system.adapter.hptoner.0
-const adapter = new utils.Adapter('hptoner');
+//const adapter = new utils.Adapter('hptoner');
+let adapter;
+function startAdapter(options) {
+	options = options || {};
+	Object.assign(options, {
+		 name: 'hptoner',
+		 ready: main,
+		 unload: callback => {
+				 try {
+			  adapter.log.debug('cleaned everything up...');
+			  callback();
+		  } catch (e) {
+			  callback();
+		  }
+		 }
+		 
+	});
+  
+	adapter = new utils.Adapter(options);
+	return adapter;
+  }
 
 /*Variable declaration, since ES6 there are let to declare variables. Let has a more clearer definition where 
 it is available then var.The variable is available inside a block and it's childs, but not outside. 
@@ -236,3 +257,10 @@ function main() {
 
 }
 
+// If started as allInOne/compact mode => return function to create instance
+if (module && module.parent) {
+    module.exports = startAdapter;
+} else {
+    // or start the instance directly
+    startAdapter();
+}
